@@ -1,3 +1,28 @@
+.songs .rating {
+  color: #aaa;
+  font-size: 1.1em;
+}
+
+.empty_list {
+  min-height: 100px,
+  text-align: center;
+}
+
+.empty_list .empty_message {
+  display: inline-block;
+  color: #555;
+  line-height:
+}
+
+.band-link .pointer {
+  float: right;
+  display: none;
+}
+
+.band-link.active .pointer {
+  display: block;
+}
+
 .page-header a h1 {
   color: #555;
 }
