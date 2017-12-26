@@ -38,7 +38,6 @@ export default Route.extend({
       rating: 2
     });
 
-    console.log('bands.js: Returning Bands');
     return [
     Band.create({name: 'Led Zepplin', songs:[blackDog]}),
     Band.create({name: 'Pearl Jam', songs: [yellowLedbetter, daughter]}),
