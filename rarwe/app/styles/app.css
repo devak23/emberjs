@@ -1,3 +1,4 @@
+
 .songs .rating {
   color: #aaa;
   font-size: 1.1em;
@@ -31,4 +32,21 @@
 .navbar-default .navbar-nav > .active > a:focus {
   color: #555;
   background-color: #e7e7e7;
+}
+
+.new-band {
+  width: 82%;
+}
+
+.new-band-button {
+  float: right;
+  padding: 3px 10px;
+}
+
+.new-song {
+  width: 50%;
+}
+
+.new-song-button {
+  margin-left: 20px;
 }
