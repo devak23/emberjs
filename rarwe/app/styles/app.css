@@ -36,6 +36,7 @@
 
 .new-band {
   width: 82%;
+  line-height: 23px;
 }
 
 .new-band-button {
@@ -45,8 +46,18 @@
 
 .new-song {
   width: 50%;
+  line-height: 23px;
 }
 
 .new-song-button {
   margin-left: 20px;
+}
+
+.rating-panel {
+  float: right;
+}
+
+a.star-rating {
+  color: inherit;
+  text-decoration: none;
 }

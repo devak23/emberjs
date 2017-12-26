@@ -4,6 +4,14 @@ import Song from "rarwe/models/song";
 import Band from "rarwe/models/band";
 
 export default Route.extend({
+  actions: {
+    createBand: function() {
+      let name = this.get('controller').get("name");
+      let band = Band.create({ name: name});
+      this.modelFor('bands').pushObject(band);
+      this.get('controller').set('name','');
+    }
+  },
   model: function() {
 
     let blackDog = Song.create({
