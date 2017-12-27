@@ -1,5 +1,4 @@
 import Route from '@ember/routing/route';
-import EmberObject from "@ember/object";
 import DataBuilder from "rarwe/data";
 import Band from "rarwe/models/band";
 
