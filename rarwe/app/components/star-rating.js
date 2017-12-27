@@ -1,8 +1,7 @@
-import Component from '@ember/component';
+import Component from "@ember/Component";
 import {computed} from "@ember/object";
 
-
-export default Ember.Component.extend({
+export default Component.extend({
   tagName: 'div',
   classNames: ['rating-panel'],
   rating: 0,
