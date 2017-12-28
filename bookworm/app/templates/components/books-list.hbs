@@ -1,5 +1,7 @@
 <div class="list-group">
   {{#each books as |book|}}
-  <a href="javascript:;" class="list-group-item">{{book.title}}</a>
+    {{#link-to "books.book" book class="list-group-item book-link"}} {{book.title}}
+    <span class="pointer glyphicon glyphicon-chevron-right"></span>
+    {{/link-to}}
   {{/each}}
 </div>

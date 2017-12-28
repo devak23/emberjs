@@ -1,0 +1,9 @@
+.book-link .pointer {
+  float: right;
+  display: none
+}
+
+.book-link.active .pointer {
+  float: right;
+  display: block;
+}
