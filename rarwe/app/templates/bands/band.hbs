@@ -1,1 +1,8 @@
-{{outlet}}
+<ul class="nav nav-tabs">
+  <li>{{#link-to 'bands.band.details'}}Details{{/link-to}}</li>
+  <li>{{#link-to 'bands.band.songs'}}Songs{{/link-to}}</li>
+</ul>
+
+<div class="band-info">
+  {{ outlet }}
+</div>
