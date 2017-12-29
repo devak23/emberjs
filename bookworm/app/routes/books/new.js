@@ -9,8 +9,12 @@ export default Ember.Route.extend({
   },
   actions: {
     createBook: function(book) {
-      console.log("create book invoked");
-      this.store.createRecord('book', book).save();
+      let _this = this;
+      this
+        .store.createRecord('book', book).save()
+        .then(function(newBook) {
+          _this.transitionTo('books.book', newBook)
+        });
     }
   }
 });
