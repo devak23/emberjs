@@ -4,11 +4,14 @@ import Band from "rarwe/models/band";
 
 export default Route.extend({
   actions: {
+    didTransition: function() {
+      document.title = "Bands - Rock & Roll";
+    },
     createBand: function() {
       let name = this.get('controller').get("name");
-      let band = Band.create({ name: name});
+      let band = Band.create({ name: name });
       this.modelFor('bands').pushObject(band);
-      this.get('controller').set('name','');
+      this.get('controller').set('name', '');
       this.transitionTo('bands.band.songs', band);
     }
   },
