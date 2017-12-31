@@ -1,0 +1,9 @@
+.customer-link .pointer {
+  float: right;
+  display: none;
+}
+
+.customer-link.active .pointer {
+  float: right;
+  display: block;
+}

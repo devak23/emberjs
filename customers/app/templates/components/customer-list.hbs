@@ -1,0 +1,8 @@
+<div class="list-group">
+  {{#each customers as |customer| }}
+  {{#link-to "customers.customer" customer class="list-group-item customer-link"}}
+  {{customer.name}}
+  <span class="pointer glyphicon glyphicon-chevron-right"></span>
+  {{/link-to}}
+  {{/each}}
+</div>
