@@ -34,3 +34,18 @@ export default {
   {"latitude": "52.833502", "cust_id": 25, "name": "David Behan", "longitude": "-8.522366"},
   ]
 }
+=======
+{ "latitude": "52.986375", "cust_id": 12, "name": "Christina McArdle", "longitude": "-6.043701" },
+{ "latitude": "51.92893", "cust_id": 1, "name": "Alice Cahill", "longitude": "-10.27699" },
+{ "latitude": "51.8856167", "cust_id": 2, "name": "Ian McArdle", "longitude": "-10.4240951" },
+{ "latitude": "52.3191841", "cust_id": 3, "name": "Jack Enright", "longitude": "-8.5072391" },
+{ "latitude": "53.807778", "cust_id": 28, "name": "Charlie Halligan", "longitude": "-7.714444" },
+{ "latitude": "53.4692815", "cust_id": 7, "name": "Frank Kehoe", "longitude": "-9.436036" },
+{ "latitude": "54.0894797", "cust_id": 8, "name": "Eoin Ahearn", "longitude": "-6.18671" },
+{ "latitude": "53.038056", "cust_id": 26, "name": "Stephen McArdle", "longitude": "-7.653889" },
+{ "latitude": "54.1225", "cust_id": 27, "name": "Enid Gallagher", "longitude": "-8.143333" },
+{ "latitude": "53.1229599", "cust_id": 6, "name": "Theresa Enright", "longitude": "-6.2705202" },
+{ "latitude": "52.2559432", "cust_id": 9, "name": "Jack Dempsey", "longitude": "-7.1048927" },
+{ "latitude": "52.240382", "cust_id": 10, "name": "Georgina Gallagher", "longitude": "-6.972413" },
+]
+}
