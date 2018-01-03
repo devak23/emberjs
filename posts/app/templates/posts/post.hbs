@@ -2,3 +2,8 @@
 <span class="pull-right">{{model.published}}</span>
 <hr>
 <p class="content">{{model.content}}</p>
+<div class="button-bar pull-right">
+  <button class="btn btn-default btn-md" {{action "previousPost"}}>Previous</button>
+  &nbsp;
+  <button class="btn btn-primary btn-md" {{action "nextPost"}}>Next</button>
+</div>
