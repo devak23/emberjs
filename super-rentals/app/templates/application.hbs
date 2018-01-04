@@ -1,3 +1,14 @@
 <div class="container-fluid">
-  {{outlet}}
+  <div class="menu">
+    {{#link-to 'index'}}
+    <h1><em>SuperRentals</em></h1>
+    {{/link-to}}
+    <div class="links">
+      {{link-to 'About' 'about'}}
+      {{link-to 'Contact' 'contact'}}
+    </div>
+  </div>
+  <div class="body">
+    {{outlet}}
+  </div>
 </div>
