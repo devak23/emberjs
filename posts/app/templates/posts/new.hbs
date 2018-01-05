@@ -1,13 +1,20 @@
 <hr>
-<form action="">
+<form {{action "saveBlog" on="submit"}}>
   <div class="form-group">
     <label for="title">Title</label>
-    <input id="title" name="title" type="text" class="form-control">
+    {{input class="form-control" value=blog.title}}
   </div>
+
   <div class="form-group">
     <label for="content">Content</label>
-    <textarea id="content" name="content" type="text" class="form-control"></textarea>
+    {{textarea class="form-control" value=blog.content}}
   </div>
+
+  <div class="form-group">
+    <label for="content">Author</label>
+    {{input class="form-control" value=blog.author}}
+  </div>
+
   <div class="form-group">
     <button class="btn btn-primary">Save</button>
     <button class="btn btn-default">Cancel</button>

@@ -4,11 +4,16 @@
   <p>
     We hope you find exactly what you're looking for in a place to stay.
   </p>
-  {{#link-to 'about' class="button"}}
-  About Us
-  {{/link-to}}
+  {{#link-to 'about' class="button"}} About Us {{/link-to}}
 </div>
 
-{{#each model as |rentalUnit|}}
-{{rental-listing rental=rentalUnit}}
-{{/each}}
+{{#list-filter filter=(action 'filterByCity') as |rentals| }}
+<ul class="results">
+  {{#each rentals as |rentalUnit|}}
+  <li>{{rental-listing rental=rentalUnit}}</li>
+  {{/each}}
+</ul>
+{{/list-filter}}
+
+{{input value=value key-up=(action 'handleFilterEntry') class="light" placeholder="Filter By City"}}
+{{yield results}}
